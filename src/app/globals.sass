@@ -1,0 +1,40 @@
+@use '../styles/variables'
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    
+.container
+    max-width: 1320px
+    margin: 0 4%
+
+.main
+    background-color: variables.$bg
+    height: 100vh
+    padding: 16px
+
+.navbar
+    position: fixed
+    top: 0
+    width: 100%
+    height: 101px
+    display: flex
+    align-items: center
+    padding: 0 2px
+    justify-content: space-between
+    z-index: 50
+    background-color: variables.$blue 
+
+.title
+    font-weight: 600
+    line-height: 49px
+    font-size: variables.$title
+    text-decoration: none
+    color: variables.$white
+    display: flex
+
+.subtitle
+    font-size: variables.$subtitle
+    font-weight: 300
+    line-height: 19px
+    padding: 19px 10px
