@@ -21,10 +21,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={montserrat.className}>
           <Navbar/>
-        <main className="main">
-            {children}
-        </main>
-
+          <main className="main">{children}</main>
       </body>
     </html>
   );
